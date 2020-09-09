@@ -1,0 +1,18 @@
+#配置客户端
+system:
+  client:
+    clients[0]:
+      clientId: zhangsan
+      clientSecret: 123456
+      clientRedirectUri: www.baidu.com
+    clients[1]:
+      clientId: lisi
+      clientSecret: 123456
+      clientRedirectUri: www.hao123.com
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gg?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: 123456
